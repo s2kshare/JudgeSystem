@@ -1,0 +1,6 @@
+@Judge_Backend_HostAddress = http://localhost:5143
+
+GET {{Judge_Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

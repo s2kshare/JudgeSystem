@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+
+# ASP.NET Core
+bin/
+obj/
+
+# Other files
+*.user
+*.lock.json
+*.DS_Store
+*.env
+.vscode/
+.idea/
