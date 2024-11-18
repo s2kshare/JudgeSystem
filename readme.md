@@ -26,24 +26,24 @@ Below lists prettier code formatting settings issued
 
 ### Frontend
 
-#### Structure
+#### File Structure
 
 ```
 _
-├── eslint.config.js
-├── index.html
-├── package-lock.json
-├── package.json
-├── postcss.config.js
-├── src
-│   ├── components       >> Reusable Components
-│   │   └── modals       >> Modals called from
-│   ├── contexts
-│   ├── main.jsx
-│   └── pages
-│       └── Auth
-├── tailwind.config.js
-└── vite.config.js
+├── eslint.config.js    >> Configuration file for ESLint
+├── index.html          >> The root HTML file for the frontend application
+├── package-lock.json   >> Auto-generated file that locks dependency versions
+├── package.json        >> Defines project metadata, scripts, and dependencies
+├── postcss.config.js   >> Configuration file for PostCSS
+├── src                 >> Main source folder where application code resides
+│   ├── components      >> Folder containing reusable components
+│   │   └── modals      >> Folder containing modal components for the app
+│   ├── contexts        >> Folder for React Contexts, for global state management
+│   ├── main.jsx        >> The main entry point of the React application
+│   └── pages           >> Folder containing the different page components
+│       └── Auth        >> Contains the authentication-related components
+├── tailwind.config.js  >> Configuration file for Tailwind
+└── vite.config.js      >> Configuration file for Vite
 ```
 
 #### Dependencies
@@ -55,6 +55,19 @@ _
 -   react-icons
 
 ### Backend
+
+#### File Structure
+
+```
+_
+│
+├───Controllers >> Folder containing controllers that handle HTTP requests
+├───Data        >> Folder where database-related files are stored
+├───DTOs        >> Data Transfer Objects, used to transfer data (client & server)
+├───Migrations  >> Folder containing migration files for Entity Framework
+├───Models      >> Folder containing the models that define database tables
+└───Services    >> Folder where the business logic and service classes reside
+```
 
 #### Dependencies
 
